@@ -1,0 +1,12 @@
+.fullHeight {
+  height: 100vh;
+}
+
+.search-row {
+  margin: 0px;
+  
+}
+
+.search-row ::-webkit-input-placeholder {
+  color: #A0A0A0;
+}

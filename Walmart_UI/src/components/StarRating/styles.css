@@ -1,0 +1,13 @@
+.star-rating {
+  display: flex;
+  flex-direction: row;
+  font-style: 20px;
+}
+
+.star-rating span::before {
+  content: "\2605";
+}
+
+.star-rating .colored {
+  color: gold;
+}
