@@ -12,6 +12,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Please use the following command:
 
+If you are running from git
+ - Clone the repo
+ - For Walmart_UI, run the following set of commands
+ ```javascript
+ npm install
+ npm run build
+ npm run serve
+ ```
+
+If you are running from zip
 ``` javascript
 npm install serve && npm run serve // The build folder is already present in the submission. Refer "Available Scripts" for more info
 ```
