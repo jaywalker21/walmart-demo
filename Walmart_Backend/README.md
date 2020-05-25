@@ -14,8 +14,8 @@ If you are using Github
 
 ```shell
  cd walmart-demo
- ./mvnw clean package // for Unix System (Linux/iOS) (will generate Jar)
- ./mvnwcmd clean package // for Windows (will generate Jar)
+ ./mvnw clean package # for Unix System (Linux/iOS) (will generate Jar)
+ ./mvnwcmd clean package # for Windows (will generate Jar)
  java -jar ./target/walmart-demo-0.0.1-SNAPSHOT.jar
 ```
 
