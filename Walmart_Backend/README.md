@@ -10,6 +10,16 @@ This project has been bootstraped using [spring-starter](https://start.spring.io
 
 Please use the following command:
 
+If you are using Github
+
+```shell
+ cd walmart-demo
+ ./mvnw clean package // for Unix System (Linux/iOS) (will generate Jar)
+ ./mvnwcmd clean package // for Windows (will generate Jar)
+ java -jar ./target/walmart-demo-0.0.1-SNAPSHOT.jar
+```
+
+If you are using zip file
 ``` shell
   java -jar ./walmart-demo/target/walmart-demo-0.0.1-SNAPSHOT.jar
 ```
