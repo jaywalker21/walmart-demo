@@ -39,4 +39,5 @@ This will start a Spring Boot Application at port `8080`
   -  `SpringBootTest` can be used for Integration Tests
   -  `MockBin` can be used to test behaviors to API Response
 - Error Handling has not currently been done for the different layers of API. Standard Error Templates can be made for reuse across different Microservices.
+- Decorator Pattern to have a Interface and Service Implementation Layer.
 - Integration with Client Secret Manager to store `API_KEY` and `API_SECRET`.
